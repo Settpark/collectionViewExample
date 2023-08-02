@@ -17,7 +17,8 @@
 		82B1B9902A6F0AC100C22E71 /* CollectionViewWillDisplayExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1B98F2A6F0AC100C22E71 /* CollectionViewWillDisplayExampleUITests.swift */; };
 		82B1B9922A6F0AC100C22E71 /* CollectionViewWillDisplayExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1B9912A6F0AC100C22E71 /* CollectionViewWillDisplayExampleUITestsLaunchTests.swift */; };
 		82B1B99F2A6F0C6700C22E71 /* DiffableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1B99E2A6F0C6700C22E71 /* DiffableDataSource.swift */; };
-		82B1B9A12A6F0E2600C22E71 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1B9A02A6F0E2600C22E71 /* CollectionViewCell.swift */; };
+		82B1B9A12A6F0E2600C22E71 /* CustomGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1B9A02A6F0E2600C22E71 /* CustomGridCell.swift */; };
+		AB89360D2A78BAF00012238C /* CustomRecommandCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89360C2A78BAF00012238C /* CustomRecommandCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +53,8 @@
 		82B1B98F2A6F0AC100C22E71 /* CollectionViewWillDisplayExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewWillDisplayExampleUITests.swift; sourceTree = "<group>"; };
 		82B1B9912A6F0AC100C22E71 /* CollectionViewWillDisplayExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewWillDisplayExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		82B1B99E2A6F0C6700C22E71 /* DiffableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableDataSource.swift; sourceTree = "<group>"; };
-		82B1B9A02A6F0E2600C22E71 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		82B1B9A02A6F0E2600C22E71 /* CustomGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGridCell.swift; sourceTree = "<group>"; };
+		AB89360C2A78BAF00012238C /* CustomRecommandCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRecommandCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +113,8 @@
 				82B1B9792A6F0AC100C22E71 /* LaunchScreen.storyboard */,
 				82B1B97C2A6F0AC100C22E71 /* Info.plist */,
 				82B1B99E2A6F0C6700C22E71 /* DiffableDataSource.swift */,
-				82B1B9A02A6F0E2600C22E71 /* CollectionViewCell.swift */,
+				82B1B9A02A6F0E2600C22E71 /* CustomGridCell.swift */,
+				AB89360C2A78BAF00012238C /* CustomRecommandCell.swift */,
 			);
 			path = CollectionViewWillDisplayExample;
 			sourceTree = "<group>";
@@ -264,7 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82B1B9A12A6F0E2600C22E71 /* CollectionViewCell.swift in Sources */,
+				82B1B9A12A6F0E2600C22E71 /* CustomGridCell.swift in Sources */,
+				AB89360D2A78BAF00012238C /* CustomRecommandCell.swift in Sources */,
 				82B1B9732A6F0ABF00C22E71 /* ViewController.swift in Sources */,
 				82B1B96F2A6F0ABF00C22E71 /* AppDelegate.swift in Sources */,
 				82B1B9712A6F0ABF00C22E71 /* SceneDelegate.swift in Sources */,
@@ -374,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -428,7 +432,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

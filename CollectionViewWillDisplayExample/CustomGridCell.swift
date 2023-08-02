@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CollectionViewCell: UICollectionViewCell {
+class CustomGridCell: UICollectionViewCell {
     static var identifier: String = "collectionViewCell"
     
     private let cellTitle: UILabel = {
@@ -38,7 +38,6 @@ class CollectionViewCell: UICollectionViewCell {
     }
     
     func configureCell(source: String) {
-        cellTitle.text = "업데이트 됨"
-        print("불림")
+        cellTitle.text = "월"
     }
 }

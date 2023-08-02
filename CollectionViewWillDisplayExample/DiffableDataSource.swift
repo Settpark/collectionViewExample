@@ -28,7 +28,7 @@ class DiffableDataSource: NSObject,
                                                                      cellProvider: { (collectionView: UICollectionView,
                                                                                       indexPath: IndexPath,
                                                                                       itemIdentifier: Model) in
-            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CollectionViewCell.identifier, for: indexPath) as? CollectionViewCell else {
+            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CustomGridCell.identifier, for: indexPath) as? CustomGridCell else {
                 return UICollectionViewCell()
             }
             return cell
@@ -46,13 +46,13 @@ class DiffableDataSource: NSObject,
     func collectionView(_ collectionView: UICollectionView,
                         willDisplay cell: UICollectionViewCell,
                         forItemAt indexPath: IndexPath) {
-        if let cell = cell as? CollectionViewCell {
+        if let cell = cell as? CustomGridCell {
             cell.configureCell(source: "업데이트됨")
         }
     }
 }
 
-enum Section {
+enum Section: Int, CaseIterable {
     case recommand
     case week
     case main
